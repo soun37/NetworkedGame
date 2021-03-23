@@ -13,7 +13,7 @@ public class Player : NetworkBehaviour
     {
         if (isLocalPlayer)
         {
-            Vector3 movement = new Vector3(Horizontal, Vertical, 0)
+            Vector3 movement = new Vector3(Horizontal, Vertical, 0);
             transform.position = transform.position + movement;
         }
     }
